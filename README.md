@@ -11,13 +11,13 @@ Prerequisite
 
 Setup
 ------
-1. install the python package via setup.py
+1\. Install the python package via setup.py
 
 ```bash
 python setup.py install
 ```
 
-2. The config in the Django project is as follows
+2\. The config in the Django project is as follows
 
 ```python		
 DATABASES = {
@@ -31,7 +31,7 @@ DATABASES = {
     }
 }
 ```
-3. HANA doesn't support Timezone. Set USE_TZ=False in settings.py.
+3\. HANA doesn't support Timezone. Set USE_TZ=False in settings.py.
 
 Config
 ------
